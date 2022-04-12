@@ -48,11 +48,57 @@ function renderLicenseBadge(license) {
   else {
     return ""
   }
-}
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === licenseArray[0]) {
+    return `[${licenseArray[0]}](https://opensource.org/licenses/Apache-2.0)`
+  }
+  else if (license === licenseArray[1]) {
+    return `[${licenseArray[1]}](https://www.boost.org/LICENSE_1_0.txt)`
+  }
+  else if (license === licenseArray[2]) {
+    return `[${licenseArray[2]}](https://opensource.org/licenses/BSD-3-Clause)`
+  }
+  else if (license === licenseArray[3]) {
+    return `[${licenseArray[3]}](https://opensource.org/licenses/BSD-2-Clause)`
+  }
+  else if (license === licenseArray[4]) {
+    return `[${licenseArray[4]}](https://opensource.org/licenses/EPL-1.0)`
+  }
+  else if (license === licenseArray[5]) {
+    return `[${licenseArray[5]}](https://opensource.org/licenses/MIT)`
+  }
+  else if (license === licenseArray[6]) {
+    return `[${licenseArray[6]}](https://opensource.org/licenses/Artistic-2.0)`
+  }
+  else if (license === licenseArray[7]) {
+    return `[${licenseArray[7]}](https://www.gnu.org/licenses/gpl-3.0)`
+  }
+  else if (license === licenseArray[8]) {
+    return `[${licenseArray[8]}](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`
+  }
+  else if (license === licenseArray[9]) {
+    return `[${licenseArray[9]}](https://www.gnu.org/licenses/agpl-3.0)`
+  }
+  else if (license === licenseArray[10]) {
+    return `[${licenseArray[10]}](https://www.gnu.org/licenses/lgpl-3.0)`
+  }
+  else if (license === licenseArray[11]) {
+    return `[${licenseArray[11]}](https://www.gnu.org/licenses/fdl-1.3)`
+  }
+  else if (license === licenseArray[12]) {
+    return `[${licenseArray[12]}](https://opensource.org/licenses/IPL-1.0)`
+  }
+  else if (license === licenseArray[13]) {
+    return `[${licenseArray[13]}](https://opensource.org/licenses/ISC)`
+  }
+  else {
+    return ""
+  }
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
