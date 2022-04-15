@@ -1,7 +1,7 @@
 # README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  [!Link to the Video on how to operate the apllication](https://drive.google.com/file/d/1_4Vx75yFUhsya7VPbojn6kJ_4jMlqY82/view)
+  [Link to the Video on how to operate the application](https://drive.google.com/file/d/1_4Vx75yFUhsya7VPbojn6kJ_4jMlqY82/view)
 
   ## Table-of-Contents
   * [License](#license)
