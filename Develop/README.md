@@ -1,7 +1,5 @@
-# README Generator
+# README Generater
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-  [!Link to the Video on how to operate the apllication](https://drive.google.com/file/d/1_4Vx75yFUhsya7VPbojn6kJ_4jMlqY82/view)
 
   ## Table-of-Contents
   * [License](#license)
@@ -30,13 +28,13 @@
   Clone the repository and open in VS Code.
 
   ## [Usage](#table-of-contents)
-  Once Installation is finished, simply run 'node index.js' in the terminal and answer the following prompts.
+  Once installation is finished, simply run 'node index.js' in the terminal and answer the following prompts.
 
   ## [How to Contribute](#table-of-contents)
   No contributions are being required at this time.
 
   ## [Tests](#table-of-contents)
-  1. Open the file in VS Code   2. Open the terminal and change the directory into the root folder   3. Run 'node index.js'   4. Answer the prompts and view the new README.md file after completion
+  1. Open the file in VS Code  2. Open the termial and change the directory into the root folder  3. Run 'node index.js'  4. Answer the prompts and view the new README.md file after completion
 
   ## [Questions](#table-of-contents)
   * Contact Me at:

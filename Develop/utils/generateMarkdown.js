@@ -108,7 +108,7 @@ function renderLicenseSection(license) {
     
     ## [License](#table-of-contents)
 
-    License badge applies to the following:
+    License badge applies to the following application:
 
     ${renderLicenseBadge(license)}
     `;
@@ -132,15 +132,15 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ## [License](#table-of-contents)
+  
   ${renderLicenseSection(data.license)}
-  ${renderLicenseLink(data.license)}
+  
 
   ## [Description](#table-of-contents)
   ${data.description}
 
   ## [Installation](#table-of-contents)
-  ${data.install}
+  ${data.installation}
 
   ## [Usage](#table-of-contents)
   ${data.usage}
@@ -153,7 +153,7 @@ function generateMarkdown(data) {
 
   ## [Questions](#table-of-contents)
   * Contact Me at:
-  [${data.username}](https://github.com/${data.username})
+  [${data.github}](https://github.com/${data.github})
   ${data.email}
 `;
 };
